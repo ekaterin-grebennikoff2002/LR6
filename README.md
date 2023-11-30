@@ -32,3 +32,9 @@ git log
 git reset HEAD~1 --hard
 git checkout -b otchyot
 </pre>
+
+### История операций в сокращенном виде 
+
+<pre>git log --pretty=format:"%h - %ad | %an | %s" --date=short</pre>
+
+![](/screens/9.png)
